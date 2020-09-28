@@ -134,6 +134,9 @@ if __name__ == "__main__":
     parser.add_argument('--max_trans', type=float, default=0.5)
     parser.add_argument('--n_points', type=int, default=1024)
     parser.add_argument('--clean', action='store_true')
+    parser.add_argument('--part2whole', action='store_true')
+    parser.add_argument('--part2part', action='store_true')
+    parser.add_argument('--overlap_rate', type=int, default=0.7)
     # model
     parser.add_argument('--d_model', type=int, default=1024)
     parser.add_argument('--n_clusters', type=int, default=16)
